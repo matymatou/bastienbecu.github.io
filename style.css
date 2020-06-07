@@ -1,0 +1,395 @@
+/* ---------------------------------------- */
+/* ==            SUMMARY              */
+/*---------------------------------------- */
+
+/* L		- 1 - */
+/* L		- 2 - */
+/* L		- 3 - */
+
+/* ---------------------------------------- */
+/* ==       COLOR CODES           */
+/*---------------------------------------- */
+/*
+
+*/
+/*
+/* ---------------------------------------- */
+/* == DÉFINITIONS DES POLICES*/
+/*---------------------------------------- */
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+
+/* ---------------------------------------- */
+/* == ÉLÉMENTS PRINCIPAUX */
+/*---------------------------------------- */
+body {  
+   	margin: 0; 
+	text-align: center;
+    font-family: 'droid_sansregular', Arial, sans-serif;
+   	width: 100%;
+}
+
+
+
+p {
+	color:#37393a; 
+	margin: 0;
+	
+}
+
+/* ---------------------------------------- */
+/* ==            HEADER                */
+/*---------------------------------------- */
+
+
+
+
+h1 {
+	font-size: 2.7em;
+	margin: 0;
+	font-weight: initial;
+    
+}
+
+header p {
+	font-size: 1.5em;
+
+}
+
+#prenom {
+	color: #FECA07;
+}
+
+#surlign {
+	text-decoration: underline;
+	text-decoration-color: #FECA07
+	;
+}
+ header div {
+	padding: 50px;
+}
+
+/* ---------------------------------------- */
+/* ==            Photo       (header)        */
+/*---------------------------------------- */
+.gold {
+	background-color: #FECA07;  /* present section 1/2/3 et 7 */
+
+}
+
+#article1 {
+	padding-top: 25%;
+	padding-bottom: 25%;
+
+}
+
+img {
+	border: 1px ;
+    border-radius: 50%;
+    width: 100%;        
+    height: auto;
+    box-shadow: 0 0 10px navy;
+}
+
+figure {
+	margin: auto;
+	width: 80%;
+}
+
+
+
+/* ---------------------------------------- */
+/* ==            SECTION 2                 */
+/*---------------------------------------- */
+
+
+.titreblack {
+	color: #FECA07;
+	background-color: #37393a;			/* present section 2/3 et 7*/
+	margin: 0;
+	text-align: center;
+}
+
+#article2 p {
+	margin: 0;
+	padding-top: 16px;
+	padding-bottom: 16px; 
+}
+/* ---------------------------------------- */
+/* ==            SECTION 3                 */
+/*---------------------------------------- */
+
+.gold p {
+	padding: 30px 25px 50px 25px;
+	text-align: initial;
+	margin: auto
+}	
+
+
+/* ---------------------------------------- */
+/* ==            SECTION 4                 */
+/*---------------------------------------- */
+
+.logti {									/* est present dans les sections 4/5/6 */
+	display: flex;
+	text-align: center;
+	border-bottom: 2px solid #FECA07;
+	align-items: center;
+    justify-content: center;
+}
+
+#article4 h2 {
+	margin: 0;
+	padding-left: 5px;
+}
+
+.fa, .fas {
+	
+	color: #FECA07;
+}
+
+.formex {									/* est present dans les sections 4/5/6 */
+	display: flex;
+	flex-direction: column; 
+	padding: 10px;
+}
+
+
+
+h3, h4, h5 {
+	font-size: 15px;
+	margin: 0;
+}
+
+h6 {
+	display: none;
+}
+
+/* ---------------------------------------- */
+/* ==            SECTION 5                 */
+/*---------------------------------------- */
+
+#article5 h2 {
+	margin: 0;
+	padding-left: 5px;	
+} 
+
+
+
+i.fa-dot-circle {
+	margin: 0;
+
+    padding-right: 10px;
+    color: #FFC400;
+
+}
+
+i.fa-circle {
+	margin: 0;
+    padding-right: 10px;
+    color: #FFC400;
+}
+.fontdate {
+	margin: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* ---------------------------------------- */
+/* ==            SECTION 6                    */
+/*---------------------------------------- */
+#article6 h2 {
+	margin: 0;
+	padding-left: 5px;
+} 
+
+
+#article6 .formex {
+	padding-top: 10px;
+}
+
+/* ---------------------------------------- */
+/* ==            Section 7                    */
+/*---------------------------------------- */
+
+
+
+#article7 i {
+	color: #37393a;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px;
+	border: 1px solid #37393a;
+    border-radius: 100%;
+
+}
+
+#logos {
+	display: flex;
+	justify-content: space-around;
+	padding: 25px;
+}
+
+ 
+/* ---------------------------------------- */
+/* ==            MEDIA QUERY                    */
+/*---------------------------------------- */
+
+
+@media only screen and (min-width: 768px) {
+	body {
+		max-width: 1024px;
+		margin: auto;
+		text-align: initial;
+	}
+	.gold {
+		width: 33%;
+	    display: flex;
+	    flex-direction: column;
+	    
+	}
+
+	#article1 {
+		padding-top: 40px;
+		padding-bottom: 25px;
+	}
+
+	main  {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	footer {
+		display: flex;
+    	flex-flow: row-reverse;
+    	justify-content: space-between;
+	}
+	header {
+		display: flex;
+    	flex-direction: row-reverse;
+    	justify-content: flex-end;
+	}
+
+	#nom {
+		padding-top: 100px;
+    	padding-left: 50px;
+	}
+
+	h1 {
+		font-size: 3em;
+		padding-right: 89px;
+		font-weight: initial;
+	}
+
+	header p {
+		font-size: 1.9em;
+		margin: 0;
+	}
+
+	figure {
+	margin: auto;
+	width: 60%;
+}
+
+	.white {
+		width: 62%;
+		display: flex;
+		flex-direction: column;
+		margin-right: 2%;
+		text-align: initial;
+	}
+
+	.formex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: baseline;
+		padding: 15px;
+	}
+
+	.diplome {
+		display: flex;
+		flex-direction: column;
+	}
+
+	i.fa-graduation-cap, i.fa-briefcase, i.fa-pencil-alt  {
+		padding-right: 10px;
+	}
+
+
+
+	.logti {
+		display: flex;
+    	justify-content: end;
+    	padding-bottom: 5px;
+	}
+
+	#article4 h2 {
+		padding-right: 400px;
+	}
+	.fontdate {
+    	padding-top: 0px; 
+    	padding-bottom: 0px;
+	}
+
+	i.fa-dot-circle {
+		padding-left: 0;
+	}
+
+	 h4 {
+		margin: 0;
+    	
+	}
+
+	i.fa-circle {
+	    padding-left: 0;
+	}
+	
+
+	#article4 p {
+		width: 400px;
+	}
+
+	#article5 p {
+		width: 400px;
+	}
+
+	#article5 h2 {
+		margin: 0;
+	}
+	#article6 aside {
+		margin-top: 15px;
+	}
+
+	#article6 h2 {
+		padding-right: 275px;
+	}
+
+	#article6 .formex {
+		justify-content: space-around;
+	}
+
+	.gold p {
+    	padding: 25px 25px 25px 25px;
+    	text-align: initial;
+    }	
+
+    #article4 #article5 h2 {
+    	margin-left: 5px;
+    }
+	
+}
+
+
+	
