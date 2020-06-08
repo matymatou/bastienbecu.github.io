@@ -247,7 +247,7 @@ i.fa-circle {
 /*---------------------------------------- */
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 	body {
 		max-width: 1024px;
 		margin: auto;
