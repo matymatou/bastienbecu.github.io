@@ -44,7 +44,7 @@ body {
 
 p {
 	color:#37393a; 
-	margin: 0;
+	margin: 7px;
 	
 }
 
@@ -68,13 +68,12 @@ header p {
 }
 
 #prenom {
-	color: #FECA07;
+	color: #6998AB;
 }
 
 #surlign {
 	text-decoration: underline;
-	text-decoration-color: #FECA07
-	;
+	text-decoration-color: #6998AB;
 }
  header div {
 	padding: 50px;
@@ -84,7 +83,7 @@ header p {
 /* ==            Photo       (header)        */
 /*---------------------------------------- */
 .gold {
-	background-color: #FECA07;  /* present section 1/2/3 et 7 */
+	background-color: #6998AB;  /* present section 1/2/3 et 7 */
 
 }
 
@@ -99,7 +98,7 @@ img {
     border-radius: 50%;
     width: 100%;        
     height: auto;
-    box-shadow: 0 0 10px navy;
+    box-shadow: 0 0 10px #3a3737;
 }
 
 figure {
@@ -115,7 +114,7 @@ figure {
 
 
 .titreblack {
-	color: #FECA07;
+	color: #fcfcfc;
 	background-color: #37393a;			/* present section 2/3 et 7*/
 	margin: 0;
 	text-align: center;
@@ -144,7 +143,7 @@ figure {
 .logti {									/* est present dans les sections 4/5/6 */
 	display: flex;
 	text-align: center;
-	border-bottom: 2px solid #FECA07;
+	border-bottom: 2px solid #6998AB;
 	align-items: center;
     justify-content: center;
 }
@@ -156,7 +155,7 @@ figure {
 
 .fa, .fas {
 	
-	color: #FECA07;
+	color: #6998AB;
 }
 
 .formex {									/* est present dans les sections 4/5/6 */
@@ -172,8 +171,10 @@ h3, h4, h5 {
 	margin: 0;
 }
 
-h6 {
-	display: none;
+h6{
+	margin: 0;
+    font-size: 15px;
+	font-weight: 100;
 }
 
 /* ---------------------------------------- */
@@ -191,14 +192,14 @@ i.fa-dot-circle {
 	margin: 0;
 
     padding-right: 10px;
-    color: #FFC400;
+    color: #6998AB;
 
 }
 
 i.fa-circle {
 	margin: 0;
     padding-right: 10px;
-    color: #FFC400;
+    color: #6998AB;
 }
 .fontdate {
 	margin: 0;
@@ -219,6 +220,9 @@ i.fa-circle {
 	padding-top: 10px;
 }
 
+.technos {
+	font-weight: bold;
+}
 /* ---------------------------------------- */
 /* ==            Section 7                    */
 /*---------------------------------------- */
@@ -315,7 +319,7 @@ i.fa-circle {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: baseline;
-		padding: 15px;
+		/*padding: 15px;*/
 	}
 
 	.diplome {
@@ -331,7 +335,7 @@ i.fa-circle {
 
 	.logti {
 		display: flex;
-    	justify-content: end;
+    	justify-content: inherit;
     	padding-bottom: 5px;
 	}
 
@@ -358,26 +362,24 @@ i.fa-circle {
 	
 
 	#article4 p {
-		width: 400px;
+		width: 410px;
 	}
 
 	#article5 p {
-		width: 400px;
+		width: 410px;
 	}
 
 	#article5 h2 {
 		margin: 0;
 	}
-	#article6 aside {
-		margin-top: 15px;
-	}
+
 
 	#article6 h2 {
 		padding-right: 275px;
 	}
 
 	#article6 .formex {
-		justify-content: space-around;
+		justify-content:inherit;
 	}
 
 	.gold p {
